@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Persegi</h1>
+
+      <svg class="ilustrasi" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="20" width="110" height="110" fill="#B2DFDB" stroke="#00796B" stroke-width="1" />
+        <text x="75" y="15" font-size="11" text-anchor="middle" fill="#00796B">Persegi</text>
+        <text x="75" y="145" font-size="11" text-anchor="middle" fill="#555">Sisi = s</text>
+      </svg>
+
+      <p class="rumus">Rumus Luas Persegi = sisi × sisi</p>
+      <p class="rumus">Rumus Keliling = 4 × sisi</p>
+
+      <label for="sisi">Masukkan panjang sisi (cm):</label>
+      <input type="number" id="sisi" placeholder="Contoh: 5" />
+
+      <div class="tombol">
+        <button id="hitungBtn">Hitung</button>
+        <button id="resetBtn" class="reset">Reset</button>
+      </div>
+
+      <div class="hasil" id="hasil">
+        <!-- Hasil akan muncul di sini -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

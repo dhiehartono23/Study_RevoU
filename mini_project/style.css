@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #00796b;
+}
+
+.ilustrasi {
+  margin: 15px 15px 15px 15px;
+}
+
+.rumus {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.tombol {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+button.reset {
+  background-color: #f44336;
+}
+
+button.reset:hover {
+  background-color: #d32f2f;
+}
+
+.hasil {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  background-color: #e0f2f1;
+  padding: 10px;
+  border-radius: 8px;
+}
